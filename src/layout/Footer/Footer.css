@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    background-color: var(--white);
+    background-color: white;
     margin-top: auto;
     box-shadow: 0 -4px 15px #0000001a;
     border-top: 1px solid rgba(128, 128, 128, 0.205);
@@ -11,7 +11,10 @@
 }
 
 .footer_row {
-    padding: 45px 0;
+    padding: 30px 40px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
 }
 
 .footer_left {
@@ -19,12 +22,14 @@
 }
 
 .footer_left img {
-    width: 200px;
+    width: 150px;
 }
 
-.footer_nav_col {
-    width: 35%;
-    margin-left: auto;
+.footer-text{
+   display: flex;
+   gap:40px;
+   font-size:0.7rem;
+   
 }
 
 .footer_nav_col ul {
@@ -32,11 +37,7 @@
     padding: 0;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-}
-
-.footer_nav_col ul li {
-    width: 50%;
+    flex-direction:column;
 }
 
 .footer_nav_col ul li a {
@@ -44,21 +45,21 @@
     text-decoration: none;
     display: block;
     margin: 1px 0;
-    color: var(--dark);
+    color: var(--primary);
     font-weight: 600;
 }
 
 .footer_nav_col ul li a:hover {
-    color: var(--primary);
+    color: var(--secondary);
 }
 
-.footer_nav_col h4 {
+.footer-text h4 {
     position: relative;
     margin-bottom: 12px;
     text-transform: capitalize;
 }
 
-.footer_nav_col h4::after {
+.footer-text h4::after {
     position: absolute;
     top: 100%;
     left: 0;
@@ -69,24 +70,11 @@
     border-radius: 50px;
 }
 
-.footer_icons {
-    width: 33px;
-    height: 33px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 12px 6px;
-}
-
-.footer_icons img {
-    max-width: 100%;
-    width: 33px;
-    height: 33px;
-}
 
 @media screen and (max-width: 767px) {
     .footer_row {
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap:30px;
     }
     .footer_left {
         width: 100%;
@@ -97,21 +85,11 @@
         max-width: 160px;
         margin: 0 auto;
     }
-    .footer_nav_col {
-        width: 100%;
-        margin: 12px auto 0 auto;
-    }
+
+    
     .footer_nav_col ul {
         justify-content: center;
         margin: 0 auto;
     }
-    .footer_nav_col ul li {
-        text-align: center;
-        width: 50%;
-    }
-    .footer_nav_col h4 {
-        text-align: center;
-        width: max-content;
-        margin: 12px auto;
-    }
+
 }

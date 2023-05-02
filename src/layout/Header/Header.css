@@ -115,6 +115,10 @@
 /* mobile responsive */
 
 @media screen and (max-width: 890px) {
+
+    .header{
+        background: linear-gradient(45deg,white 50%,var(--blue) 80% ,var(--secondary));
+    }
     .header_row {
         padding: 5px 16px 5px 23px;
         min-height: 54px;
