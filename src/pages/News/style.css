@@ -1,5 +1,9 @@
+.img_content{
+    background-position: 0% 70%;
+}
+
 .news h2{
-    color:#C1F6EC;
+    color:white;
 }
 
 .news_card_row {

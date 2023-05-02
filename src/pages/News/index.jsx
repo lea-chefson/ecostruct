@@ -1,6 +1,6 @@
 import { Fade } from "react-reveal";
 import "./style.css";
-import news_bg from "../../assets/images/teambg.jpg";
+import news_bg from "../../assets/images/section.jpg";
 import NewsCard from "../../components/Card/NewsCard";
 import Rest_api from "./news_rest";
 import { useEffect, useState } from 'react';
