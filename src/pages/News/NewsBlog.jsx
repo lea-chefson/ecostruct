@@ -4,6 +4,7 @@ import NewsCard from "../../components/Card/NewsCard";
 import { useParams } from 'react-router-dom'
 import {Link} from "react-router-dom";
 import { useEffect, useState } from 'react';
+import news1 from "../../assets/images/com.jpg"
 
 const NewsBlog = () => {
   const { id } = useParams()
@@ -24,36 +25,33 @@ const NewsBlog = () => {
       <div className="cs_container">
         <div className="cs_row news_detail_row">
           <div className="news_detail_sec">
-            {data.slice(i,i+1).map(data => // <-- map Alldata array
+          
              <Fade bottom duration={1000} delay={100}>
-        <h2>{data.attributes.Title}</h2>
+        <h2>Ecostruct Holdings Announces Incorporation and Secures USD 400k in Startup Capital</h2>
         </Fade>
-      )} 
-      {data.slice(i,i+1).map(data => // <-- map Alldata array
              <Fade bottom duration={1000} delay={100}>
-        <h4>{data.attributes.description}</h4>
+        <h4></h4>
         </Fade>
-      )} 
-           
             <Zoom bottom duration={1500} delay={150}>
               <div className="news_detail_img d_flex justify_content_center align_items_center">
-              {data.slice(i,i+1).map(data =>
+    
          <img
-         src={`http://localhost:1337${data.attributes.media.data[0].attributes.formats.small.url}`} alt={data.title}
+         src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt={news1}
        />
-       )}
               </div>
             </Zoom>
             <Fade bottom duration={1000} delay={200}>
               <p>
-                Impact Solar has invested and installed a solar rooftop at SB
-                Design Square Ratchapruek branch facility with a total capacity
-                of 408 kW in Bang Kruay, Nonthaburi province, which now is
-                already commenced a commercial operation and start selling the
-                electricity through our initiative "Private PPA" program on 29th
-                December 2018. The system can generate 607,600 units of
-                electricity per annual while reduce 344 metric tons per year of
-                carbon dioxide.
+              February 27, 2023 - Ecostruct Holdings is overjoyed to announce its official incorporation, marking a new chapter in its mission to accelerate climate action. Alongside this significant milestone, the company has successfully secured USD 400,000 in startup capital to commence work on their flagship project, an initiative that has generated considerable excitement among industry insiders.
+              </p> <p>
+While specific details about the flagship project are being kept under wraps for now, Ecostruct Holdings is eager to develop their first in a series of unique startups. These ventures aim to have a profound impact on global climate action by accelerating funding and driving long-term, sustainable development in the environmental sector.
+</p> <p>
+The secured funds, which come from a mixture of investors and partners enthusiastic about backing Ecostruct's vision, will be instrumental in accelerating the growth of this start-up. With this startup capital, the company will be well-positioned to build a talented team, create groundbreaking technologies, and enter new markets.
+</p> <p>
+Ecostruct Holdings is committed to working diligently to ensure that its flagship project becomes a catalyst for innovative strategies, policies, and technologies that mitigate climate-related risks and enable a more resilient, sustainable future for all.
+</p><p>
+Stay tuned for more news and announcements from Ecostruct Holdings as they develop and launch groundbreaking solutions to address climate challenges on a global scale.
+
               </p>
             </Fade>
           </div>
@@ -62,18 +60,10 @@ const NewsBlog = () => {
               <h2>Related News</h2>
             </Fade>
             <div className="news_card_row">
-              {[...new Array(0)].map((v, i) => (
-                <div key={i} className="news_col">
-                  <NewsCard
-                    url="/news-blog"
-                    data={{
-                      img: "https://cdn.pixabay.com/photo/2018/04/05/23/59/nature-3294632_1280.jpg",
-                      title: "21 Feburary 2019",
-                      desc: "Impact Solar is ready to sell electricity to Haad Thip PCL",
-                    }}
-                  />
+    
+                <div className="news_col">
+               
                 </div>
-              ))}
             </div>
           </div>
         </div>

@@ -32,14 +32,10 @@ const News = () => {
       </div>
       <section className="cs_container">
         <div className="news_card_row">
-        {data?.map((v, i) => (
-            <div key={i} className="news_col">
+            <div className="news_col">
               <NewsCard1
-                url="/news-blog"
-                id={i}   
               />
             </div>
-          ))}
         </div>
       </section>
     </main>

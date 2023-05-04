@@ -40,6 +40,10 @@ background:black;
  font-size:medium;
 }
 
+.content{
+  transition: ease-in-out 1s; 
+}
+
 .container:hover{
   flex:7;
   filter: grayscale(0);
@@ -55,9 +59,32 @@ background:black;
 
 .container:hover .content{
   backdrop-filter:brightness(0.5);
-
+  height: 100%;
+display: flex;
+flex-direction: column;
+  justify-content: space-around;
 }
 
 .container:hover .name{
   color:var(--green)
+}
+
+@media screen and (max-width: 767px) {
+
+.team{
+  gap:5px;
+  width:90%;
+  margin-bottom: 10px;
+}
+  .container{
+    width:10px;
+    padding:5px;
+    overflow: hidden;
+  }
+  
+
+  .description{
+    padding:0;
+    margin:5px;
+  }
 }

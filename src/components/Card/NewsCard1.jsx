@@ -1,41 +1,24 @@
 import {Link} from "react-router-dom";
 import { useEffect, useState } from 'react';
 
-const NewsCard = ({ props, id, url }) => {
-  const [data, setAlldata] = useState([]); // <-- array
-  let i = id
-
-  useEffect(() => {
-    // GET request using fetch inside useEffect React hook
-    fetch("http://localhost:1337/api/articles?populate=%2A")
-      .then((response) => response.json())
-      .then(({ data }) => setAlldata(data)); // <-- save the data array
-  }, []);
-;
+import news1 from "../../assets/images/section5.png"
 
 
-{/*http://localhost:1337/api/articles?populate=%2A${data.attributes.formats.thumbnail.url}*/}
-
+const NewsCard1 = () => {
   return (
     <div className="news_wrap">
-    <Link to={`/news-blog/${i}`} className="news_card">
-       {data.slice(i,i+1).map(data =>
+    <Link to={`/news-blog/news`} className="news_card">
          <img
-         src={`http://localhost:1337${data.attributes.media.data[0].attributes.formats.small.url}`} alt={data.title}
+         src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt="news1"
        />
-       )}
-       
       <div className="news_card_content">
-        {data.slice(i,i+1).map(data => // <-- map Alldata array
-        <h2>{data.attributes.Title}</h2>
-      )}
-      {data.slice(i,i+1).map(data => // <-- map Alldata array
-         <p>{data.attributes.description}</p>
-      )}
+        <h2>Ecostruct Holdings Announces Incorporation and Secures USD 400k in Startup Capital
+</h2>
+         <p>February 27, 2023 - Ecostruct Holdings is overjoyed to announce its official incorporation, marking a new chapter in its mission to accelerate climate action.</p>
       </div>
     </Link>
     </div>
   );
 };
 
-export default NewsCard;
+export default NewsCard1;
