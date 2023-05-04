@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+
+.team{
+  display: flex;
+  justify-content: center;
+  width:60%;
+  max-width: 1550px;;
+  margin:auto;
+  gap:30px;
+ transition: ease-in-out 1s;
+ margin-bottom:60px;
+}
+.container  { 
+flex:1;
+ color:white;
+ padding:10px;
+ height:300px;
+ border-radius: 5px;
+ transition: ease-in-out 1s;
+ background-size: cover;
+ background-position: top;
+ filter: grayscale(1);
+ border:var(--blue) 2px solid
+
+}
+
+.name{
+color:white;
+background:black;
+}
+
+.description{
+  opacity:0;
+ transition: ease-in-out 1s;
+ max-height: 200px;
+ overflow: auto;
+ margin:30px;
+ padding:10px;
+ font-size:medium;
+}
+
+.container:hover{
+  flex:7;
+  filter: grayscale(0);
+}
+
+.container:hover .description{
+  opacity:1;
+}
+
+.content{
+ transition: ease-in-out 1s;
+}
+
+.container:hover .content{
+  backdrop-filter:brightness(0.5);
+
+}
+
+.container:hover .name{
+  color:var(--green)
+}

@@ -1,7 +1,7 @@
 import { Fade } from "react-reveal";
 import "./style.css";
 import news_bg from "../../assets/images/section.jpg";
-import NewsCard from "../../components/Card/NewsCard";
+import NewsCard1 from "../../components/Card/NewsCard1";
 import Rest_api from "./news_rest";
 import { useEffect, useState } from 'react';
 
@@ -34,7 +34,7 @@ const News = () => {
         <div className="news_card_row">
         {data?.map((v, i) => (
             <div key={i} className="news_col">
-              <NewsCard
+              <NewsCard1
                 url="/news-blog"
                 id={i}   
               />
