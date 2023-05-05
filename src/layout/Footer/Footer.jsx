@@ -33,7 +33,7 @@ const Footer = () => {
             <h4>Contact</h4>
             <p><strong>Ecostruct Holdings</strong></p>
             <p>Craigmuir Chambers<br/> Road Town, Tortola<br/> VG 1110<br/> British Virgin Islands</p>
-            <a href="mailto:info@ecostructholdings.com">info@ecostructholdings.com</a>
+            <a className="email"href="mailto:info@ecostructholdings.com">info@ecostructholdings.com</a>
               </div>
             </div>
           </div>

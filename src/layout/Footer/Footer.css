@@ -40,17 +40,17 @@
     flex-direction:column;
 }
 
-.footer_nav_col ul li a {
+.footer_nav_col ul li a, .email {
     padding: 2px 0;
     text-decoration: none;
     display: block;
     margin: 1px 0;
-    color: var(--primary);
+    color: var(--secondary);
     font-weight: 600;
 }
 
-.footer_nav_col ul li a:hover {
-    color: var(--secondary);
+.footer_nav_col ul li a:hover, .email:hover {
+    color: var(--blue);
 }
 
 .footer-text h4 {
