@@ -29,7 +29,7 @@ width:50px;
  background-size: cover;
  background-position: top;
  filter: grayscale(0);
- border:var(--secondary) 3px solid;
+ box-shadow: 5px 5px 15px #555555aa;
 }
 
 .name{
@@ -82,10 +82,9 @@ flex-direction: column;
 .team{
   gap:5px;
   width:90%;
-  max-height:80vh;
   margin-bottom: 10px;
   flex-direction: column;
-  height:200px;
+  height:500px;
   flex:1
 }
 
@@ -95,7 +94,9 @@ flex-direction: column;
   .container{
     width:100%;
     padding:5px;
+    height:50px;
     overflow: hidden;
+    background-position: 70% 20%;
   }
   
 

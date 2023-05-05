@@ -90,6 +90,7 @@ const Team = () => {
   return (
     <div className="section">
          <h1>Our <span>Team</span></h1>
+         <div className="background_cont">
     <div className="team">
       {employees.map((employee, index) => (
       <div class="container"  style={{ backgroundImage: `url(${employee.image})` }}
@@ -120,7 +121,7 @@ const Team = () => {
    </div>
      ))}
    </div>
- 
+   </div>
    </div>
   );
 };

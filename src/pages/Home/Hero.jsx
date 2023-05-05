@@ -12,8 +12,8 @@ const Hero = (props) => {
     <>
       <div className="overlay">
         <img src={logo} alt="" className="scale-in-center"/>
-        <h3>Ecostruct is a visionary new holding company, driven by an unwavering passion for catalysing climate action worldwide. </h3>
-        <Link to="/contact"><button>Contact Us</button></Link>
+        <h3 className="scale-in-center">Ecostruct is a visionary new holding company, driven by an unwavering passion for catalysing climate action worldwide. </h3>
+        <Link to="/contact" className="scale-in-center"><button>Contact Us</button></Link>
       </div>
       <div className="hero">
         <video controls={false} autoPlay loop={true} muted playsInline>

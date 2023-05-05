@@ -225,10 +225,12 @@ h1{
     flex-direction: column;
     align-items:center;
     width:90%;
+    padding:10px;
    }
 
    .group-text{
     width:80%;
+    padding:0 10px;
    }
 
 }

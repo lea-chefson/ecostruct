@@ -42,33 +42,34 @@ const Contact = () => {
         <div className="cs_container blue">
           <div className="contact_form d_flex" id="form">
             <div className="cf_left">
-              <form method="post"  action="mailto:info@crypteco.io">
-                <div className="cs_row">
-                  <div className="form_group">
-                    <label htmlFor="">First Name</label>
-                    <input type="text" required />
-                  </div>
-                  <div className="form_group">
-                    <label htmlFor="">Last Name</label>
-                    <input type="text" required />
-                  </div>
-                </div>
-                <div className="cs_row">
-                  <div className="form_group">
-                    <label htmlFor="">Phone Number</label>
-                    <input type="number" required />
-                  </div>
-                  <div className="form_group">
-                    <label htmlFor="">E-mail</label>
-                    <input type="email" required />
-                  </div>
-                </div>
-                <div style={{ width: "100%" }}>
-                  <label htmlFor="">Message</label>
-                  <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-                <input className="submit_button" type="submit" value="Send" style={{width:"40%", cursor:"pointer"}}></input>
-              </form>
+            <form method="post" action="mailto:info@ecostructholdings.com">
+  <div className="cs_row">
+    <div className="form_group">
+      <label htmlFor="first_name">First Name</label>
+      <input type="text" name="first_name" required />
+    </div>
+    <div className="form_group">
+      <label htmlFor="last_name">Last Name</label>
+      <input type="text" name="last_name" required />
+    </div>
+  </div>
+  <div className="cs_row">
+    <div className="form_group">
+      <label htmlFor="phone_number">Phone Number</label>
+      <input type="number" name="phone_number" required />
+    </div>
+    <div className="form_group">
+      <label htmlFor="email">E-mail</label>
+      <input type="email" name="email" required />
+    </div>
+  </div>
+  <div style={{ width: "100%" }}>
+    <label htmlFor="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+  </div>
+  <input className="submit_button" type="submit" value="Send" style={{ width: "40%", cursor: "pointer" }}></input>
+</form>
+
             </div>
             <div className="cf_right">
               <div  className='invert'>
