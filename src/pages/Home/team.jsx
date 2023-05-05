@@ -1,6 +1,6 @@
 import React from "react";
 import "./Team.css"
-import profile1 from "../../assets/images/team/perso1.jpg";
+import nick from "../../assets/images/team/nick.jpg";
 import profile2 from "../../assets/images/team/perso2.png";
 import profile3 from "../../assets/images/team/perso4.png";
 import profile4 from "../../assets/images/team/perso5.png";
@@ -12,7 +12,7 @@ const employees = [
     title: "Web Developer",
     description:  "Nick's journey began in the industrial heart of the U.K., where he worked as a project engineer on water treatment facilities. His strong problem-solving skills and staunch dedication to his work allowed him to quickly rise through the ranks. In time, Nick found himself taking on more senior positions within large-scale civil projects in Australia.\n\nIt was during his tenure in Australia that Nick broadened his skillset, learning how to develop and manage large-scale projects. He began to understand the complexities of environmental impact and the importance of incorporating sustainability into every aspect of his work. As his interest in the environment and the world around him grew, Nick realised that the next chapter of his life lay far beyond traditional engineering roles.\n\nNick’s career path took a dramatic turn when he moved into business development, applying the valuable project management skills he had developed. He played a pivotal role in conceptualising and developing numerous initiatives in the landscape of sustainable business.\n\nOne of his crowning achievements was when he joined the founding team that conceptualised and built an eco-international school in Thailand. \n\nAs his influence grew, Nick conceptualised and played a key role in the creation of a renewable energy company in Thailand. In doing so, he focused his ingenuity and forward-thinking approach on developing new ventures in the renewable energy sector. His consulting work led to the creation and award of over 150MWp of new clean energy projects. \n\nOne of Nick's latest ventures is his role as a founding member of Ecostruct, a company dedicated to transforming the future of sustainability. He plays a key role in turning visionary ideas into feasible projects, ensuring that nothing stands in the way of a greener tomorrow.",   
     contact: "john.smith@example.com",
-    image: profile1,
+    image: nick,
   },
   {
     name: "Yashovardhan Lohia",
@@ -27,10 +27,8 @@ const employees = [
       "As a native Lancashire lad, Mark pursued higher education at the esteemed University of Manchester, where he excelled in physics and secured a hard-earned master's degree.\n\nAfter conquering the world of academics, Mark stepped into the realm of corporate finance, where he delved into the intricacies of the global economy. Yet, his unquenchable thirst for knowledge soon led him back to the realms of education. This time, he ventured into the field of chemical engineering, expanding his skills and aligning them with his ever-evolving interests.\n\nMark's innovative spirit shone through as he transitioned into consulting on environmental financial solutions. His expertise in diverse fields allowed him to recognize the most prudent ways to balance fiscal responsibility and ecological sustainability. Surrounded by new ideas, Mark felt the drive for intellectual growth once more and embarked on yet another academic journey, pursuing a Ph.D. in mathematics.\n\nIt was in the year 2011, a time marked by the rapid emergence of new technologies, that Mark had his first encounter with blockchain. Recognizing the transformative potential of this technology, he immersed himself in it, securing various senior positions at prominent institutions like Telenor and Aquifer Institute. As a natural innovator, Mark became a critical part of the founding team of Nahmii AS, where he leveraged his background in various fields to conceptualise groundbreaking blockchain-based products that would later be recognized by the European Patent Office.\n\nToday, Mark is a proud member of the founding team at Ecostruct. His extensive expertise in progressive technologies, finance, and environmental engineering plays an indispensable role in shaping the company's direction. With a keen eye for visionary ideas, Mark continues to push boundaries in technology and sustainability, validating novel concepts that have the potential to make a lasting impact on the world.",
     contact: "mike.johnson@example.com",
     image: profile3,
-  }
-]
+  },
 
-const employees2 = [
   {
     name: "Yashovardhan Lohia",
     description:
@@ -38,6 +36,9 @@ const employees2 = [
     contact: "emily.williams@example.com",
     image: profile4,
   },
+]
+
+const employees2 = [
   {
     name: "Michael Soon",
     description:
@@ -51,10 +52,7 @@ const employees2 = [
       "David is a user experience designer with a strong focus on creating intuitive and user-friendly interfaces. He is skilled in wireframing, prototyping, and user testing, and has experience with popular design tools like Sketch and Figma.",
     contact: "david.lee@example.com",
     image: profile5,
-  }
-]
-
-const employees3 = [
+  },
   {
     name: "Kasima Tharnpipitchai",
     description:
@@ -117,21 +115,7 @@ const Team = () => {
    </div>
      ))}
    </div>
-   <div className="team">
-     {employees3.map((employee, index) => (
-     <div class="container"  style={{ backgroundImage: `url(${employee.image})` }}
-     key={index}>
-     <div class="content">
-       <h3 className="name">{employee.name}</h3>
-       <p className="description" >      {employee.description.split("\n\n").map((paragraph, index) => (
-               <div key={index} style={{ marginBottom: "20px" }}>  <p>{paragraph}</p>
-               </div> ))}
-               </p>
-     </div>
-     <div class="flap"></div>
-   </div>
-     ))}
-   </div>
+ 
    </div>
   );
 };
