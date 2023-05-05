@@ -38,10 +38,11 @@
 
 .overlay img{
     z-index:1;
-    height:400px;
+    max-height:400px;
+    height:45vh;
     width:550px;
     padding:20px;
-    margin-bottom:20px;
+    margin-bottom:10px;
     position:relative; 
 }
 
@@ -52,6 +53,30 @@
     max-width: 850px;
     font-size:larger;
     text-align:center;
+    font-style: italic;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding:15px 0px;
+}
+
+.overlay button{
+    padding:8px 16px;
+    font-size:1rem;
+    margin-top:20px;
+    background: linear-gradient(180deg,var(--green), var(--secondary)  );
+    border:none;
+    border-radius:5px;
+    color:white;
+    font-weight: 500;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.overlay button:hover{
+    background: linear-gradient(45deg,black ,var(--secondary) );
+    color:var(--green);
+    border:var(--blue) 1px solid;
+    border-style: inset;
 }
 
 
@@ -62,22 +87,37 @@
 
 
 .introduction{
-    padding:100px 30px;
+    padding:10px 30px 40px 30px;
     display:flex;
     flex-wrap: wrap;
     align-items:start;
     justify-content: center;
     gap:30px;
-    max-width:1650px;
     margin:auto;
+    width:70%;
 }
+
+
+h1{
+    font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+    color:var(--green);
+    margin: 60px 100px 30px 100px;
+    font-size:2.5rem;
+    padding:5px;
+    border-bottom: 4px solid var(--secondary);
+  }
+  
+  h1 span{
+    color:var(--blue)
+  }
 
 .group-text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:20px;
+    padding:20px 10px;
     width:28%;
+    max-width:1650px;
 }
 
 .icon{
@@ -88,9 +128,9 @@
 
 .introduction p{
     text-align: left;
-    font-size:17px;
+    font-size:15px;
     color:var(--secondary);
-    margin-top:20px;
+    margin-top:15px;
 }
 
 
@@ -170,10 +210,12 @@
     }
 
     .overlay img{
-        width:80%;
-        height:fit-content;
-        object-fit: contain;
+        width:auto;
+        max-width:90vw;
+        height:auto;
+        max-height:35vh;
     }
+
 
    .overlay h3 {
     width:90%;
@@ -182,6 +224,7 @@
    .introduction{
     flex-direction: column;
     align-items:center;
+    width:90%;
    }
 
    .group-text{

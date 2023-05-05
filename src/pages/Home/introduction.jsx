@@ -7,6 +7,8 @@ import { ReactComponent as Icon5 } from '../../assets/images/iconA.svg';
 
 export default function Introduction() {
   return (
+    <>
+     <h1>Our <span>Mission</span></h1>
     <div className='introduction'>
         <div className="group-text">
             <Icon1 className="icon"/>
@@ -31,5 +33,6 @@ export default function Introduction() {
                 <p >At Ecostruct, we recognize that fostering equality and embracing diversity are critical pillars in achieving a sustainable future. Emphasising these values not only fosters a fair and inclusive environment for innovation, but also helps us identify unique perspectives and creative solutions in the fields of eco-technology and sustainable development.</p>
                 </div>
     </div>
+    </>
   )
 }

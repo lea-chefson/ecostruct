@@ -1,6 +1,10 @@
 import React from "react";
 import "./Team.css"
 import nick from "../../assets/images/team/nick.jpg";
+import kasima from "../../assets/images/team/kasima.jpg";
+import michael from "../../assets/images/team/michael.jpg";
+import sital from "../../assets/images/team/sital.jpg";
+import vishal from "../../assets/images/team/vishal.jpg";
 import profile2 from "../../assets/images/team/perso2.png";
 import profile3 from "../../assets/images/team/perso4.png";
 import profile4 from "../../assets/images/team/perso5.png";
@@ -44,35 +48,35 @@ const employees2 = [
     description:
       "With a strong focus on manufacturing and supplying tier-1 components, Gold Stone Energy and its various subsidiaries have made significant strides in the renewable energy and storage sector. As a company, they specialise in the production of solar cells, battery components, and other state-of-the-art instruments that cater to the global market's increasing demand for sustainable resources.\n\nUnder Michael's dynamic leadership, Gold Stone Energy has spent two decades establishing itself as a trailblazer in the renewable energy and storage markets. His relentless pursuit of innovative solutions and his dedication to serving the global marketplace have cemented Michael's reputation as an industry titan.\n\nAside from his key role at Gold Stone Energy, Michael also lends his expertise as a valuable member of several high-profile boards of directors. His vast network and strong business relationships have been vital assets in creating numerous entrepreneurial opportunities, including the Ecostruct project.\n\nToday, Michael remains a prominent figure in the world of renewable energy and storage, consistently applying his knowledge and vision to foster growth and sustainability in the sector.",
     contact: "david.lee@example.com",
-    image: profile5,
+    image: michael,
   },
   {
     name: "Sital Gill",
     description:
       "David is a user experience designer with a strong focus on creating intuitive and user-friendly interfaces. He is skilled in wireframing, prototyping, and user testing, and has experience with popular design tools like Sketch and Figma.",
     contact: "david.lee@example.com",
-    image: profile5,
+    image: sital,
   },
   {
     name: "Kasima Tharnpipitchai",
     description:
       "Kasima, a highly-regarded expert in the field of computer science and digital product development, hails from the sunny state of California. After completing their studies in computer science at the prestigious Maryland University, Kasima went on to make a significant impact on a multitude of successful start-ups, holding senior positions alongside well-known entities and entrepreneurs.\n\nOver the course of their career, Kasima gained valuable experience from a range of companies, enhancing their unique skill set. As Senior Software Engineer at GutHub (sic), they undoubtedly showcased their talent for programming and problem-solving. Later, taking on the role of Chief Technology Officer for OmiseGo, Kasima further solidified their position as an expert in progressive technology. Among other accomplishments, their time as resident entrepreneur at SCB10X presented remarkable opportunities to collaborate with like-minded professionals and develop cutting-edge products.\n\nKasima's expertise in the tech industry, particularly in the blockchain space, has been crucial in successfully launching an array of new start-ups. As a founding member of Ecostruct, their innate talent for project development is instrumental to the continued growth and success of the company.\n\nOverall, Kasima's diverse exposure to different sectors, combined with their dedication and skillful approach to developing digital products, has led to a sterling professional reputation. As an experienced leader and sought-after expert, Kasima stands as an inspiration to others in the industry, continuously breaking boundaries and driving innovation.",
     contact: "david.lee@example.com",
-    image: profile3,
+    image: kasima,
   },
   {
     name: "Vishal Kedia",
     description:
       "Vishal, born and raised in Bangkok, Thailand, is an accomplished global business leader and entrepreneur, renowned for his impressive track record in the pharmaceutical industry. After graduating from Pace University in New York with a degree in International Business, he quickly put his entrepreneurial spirit to work, founding Vexxa Life Sciences, VE Group, and Unique Group. Through his leadership and innovative ideas, Vishal built a pharmaceutical empire that focuses on providing affordable essential medicines to international markets.\n\nOver the course of two decades, Vishal established an expansive portfolio of 18 companies, spanning multiple industries, showcasing his expert approach and invaluable experience in turning various business ideas into thriving enterprises. His remarkable achievements have made him a prominent figure in the business world.\n\nVishal's extensive knowledge of global markets and his drive for innovation have significantly benefited Ecostruct. His unwavering determination, coupled with his professional acumen, has allowed Vishal to achieve great success in the pharmaceutical industry and beyond, enhancing the lives of millions worldwide.",
     contact: "david.lee@example.com",
-    image: profile4,
+    image: vishal,
   },
   {
     name: "Alex Wood",
     description:
       "Alex, a highly accomplished and distinguished professional hailing from the United Kingdom, boasts an impressive academic background and over three decades of experience in the field of corporate strategy and mergers and acquisitions.\n\nAlex's educational journey encompasses a degree from the esteemed London School of Economics, followed by a Master of Studies (MSt) from the prestigious University of Oxford.\n\nThroughout Alex's 30-year career, Asia has been the primary focus, providing a depth of experience in the region's economic landscape. Demonstrating strong leadership and market acuity, Alex reached the pinnacle of success by serving as Chairman for Indochina Energy - a key organization within the Asian energy sector. Concurrently, Alex's acumen as an entrepreneur is exemplified in the co-founding of AWR Lloyd, an award-winning consultancy firm focused on sustainable strategy, where Alex holds the position of CEO.\n\nAt AWR Lloyd, Alex employs a unique blend of financial expertise and environmental consciousness to support a broad range of clients, including governments, international corporations, and innovative start-ups. With an emphasis on sustainable growth and renewable energy, Alex's influence in the energy sector significantly contributes to the development and implementation of environmentally-friendly initiatives.\n\nIn essence, Alex is an entrepreneur, financial expert, and global leader in sustainable strategy, underscored by a consistent effort to create a greener and more sustainable future. This dedication to the environment, paired with an expansive career in corporate strategy and mergers and acquisitions, allows Alex to establish a lasting impact on the world stage, building a legacy defined by excellence, innovation, and responsibility.",
     contact: "david.lee@example.com",
-    image: profile2,
+    image: profile5,
   },
 ];
 
@@ -85,12 +89,13 @@ const Team = () => {
 
   return (
     <div className="section">
+         <h1>Our <span>Team</span></h1>
     <div className="team">
       {employees.map((employee, index) => (
       <div class="container"  style={{ backgroundImage: `url(${employee.image})` }}
       key={index}>
       <div class="content">
-        <h3 className="name">{employee.name}</h3>
+        <h4 className="name">{employee.name}</h4>
         <p className="description" >      {employee.description.split("\n\n").map((paragraph, index) => (
                 <div key={index} style={{ marginBottom: "20px" }}>  <p>{paragraph}</p>
                 </div> ))}
@@ -105,7 +110,7 @@ const Team = () => {
      <div class="container"  style={{ backgroundImage: `url(${employee.image})` }}
      key={index}>
      <div class="content">
-       <h3 className="name">{employee.name}</h3>
+       <h4 className="name">{employee.name}</h4>
        <p className="description" >      {employee.description.split("\n\n").map((paragraph, index) => (
                <div key={index} style={{ marginBottom: "20px" }}>  <p>{paragraph}</p>
                </div> ))}

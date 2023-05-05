@@ -1,5 +1,6 @@
 import homeVideo from "../../assets/videos/mainVideo.mp4";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo_centre.png";
+import { Link } from "react-router-dom";
 import SimpleSlider from "./slicker";
 
 
@@ -12,6 +13,7 @@ const Hero = (props) => {
       <div className="overlay">
         <img src={logo} alt="" className="scale-in-center"/>
         <h3>Ecostruct is a visionary new holding company, driven by an unwavering passion for catalysing climate action worldwide. </h3>
+        <Link to="/contact"><button>Contact Us</button></Link>
       </div>
       <div className="hero">
         <video controls={false} autoPlay loop={true} muted playsInline>
