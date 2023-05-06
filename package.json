@@ -1,6 +1,6 @@
 {
   "name": "webapp",
-  "homepage": "https://lea-chefson.github.io/ecostruct/",
+  "homepage": "https://lea-chefson.github.io/ecostruct",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
