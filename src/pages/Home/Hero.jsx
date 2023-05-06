@@ -2,6 +2,7 @@ import homeVideo from "../../assets/videos/mainVideo.mp4";
 import logo from "../../assets/images/logo_centre.png";
 import { Link } from "react-router-dom";
 import SimpleSlider from "./slicker";
+import { motion } from "framer-motion";
 
 
 
@@ -20,6 +21,7 @@ const Hero = (props) => {
           <source src={homeVideo} type="video/mp4" />
         </video>
       </div>
+      
     </>
   );
 };

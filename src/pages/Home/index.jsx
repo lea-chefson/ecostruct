@@ -5,13 +5,17 @@ import Team from "./team";
 
 //
 import mainLogo from "../../assets/images/logo2.jpg";
+import Subsidiaries from "./Subsidiaries";
+import OurStory from "./Our Story";
 
 const Home = () => {
   return (
     <main>
       <Hero />
-      <Introduction/>
+      <Subsidiaries/>
+      <OurStory/>
       <Team/>
+      <Introduction/>
           </main>
           
   );
