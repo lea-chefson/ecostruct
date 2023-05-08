@@ -99,9 +99,9 @@
 h1{
   font-family: "Arial Rounded MT Bold", Arial, sans-serif;
   color:var(--green);
-  margin: 0px 100px 30px 100px;
+  margin: 0px 100px 30px 120px;
   font-size:2.5rem;
-  padding:50px 5px 10px 5px;
+  padding:120px 5px 10px 5px;
   border-bottom: 4px solid var(--secondary);
   width:30%;
 }
@@ -115,18 +115,18 @@ h1 span{
 
 
 .subsidiaries .content{
-  background: linear-gradient(45deg, var(--primary), var(--blue));
-  opacity:0.5;
+  background: linear-gradient(0deg, var(--green), var(--blue));
+  opacity:0.4;
   width:fit-content;
-  margin:100px auto;
-  border-radius: 20px;
-
+  margin:200px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px black;
  }
 
  .subsidiaries p{
-  font-size:3rem;
+  font-size:2rem;
   color:white;
-  padding:16px;;
+  padding:16px 32px;;
  }
 
 
@@ -142,35 +142,38 @@ h1 span{
 
 .story-content{
   display:flex;
-  gap:70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
   width:70%;
   margin:auto;
-  padding: 60px 0px;
+  padding: 60px 0px 100px 0px;
 }
 
 .OurStory p{
-  width:40%;
-  padding:20px 0px;
+  width:90%;
   color:white;
   margin:auto;
-  font-size:20px;
+  font-size:16px;
   line-height: 1.5em;
-  flex:2;
+  flex:1.7;
+  font-weight: 600;
 
 }
 
 .OurStory img{
   flex:1;
-  width:10%;
+  width:40%;
+  max-width:600px;
   height:300px;
   object-fit: cover;
-  border-radius:10px;
-  box-shadow: 4px 4px 15px #000000dd
+  border:var(--green) 2px solid
 }
 
 
 .introduction{
-    padding:10px 30px 40px 30px;
+    padding:50px 90px 100px 30px;
     display:flex;
     flex-wrap: wrap;
     align-items:start;
@@ -294,7 +297,8 @@ h1 span{
 
    h1{
     margin:20px 30px 20px 30px;
-    width:80%
+    width:80%;
+    padding:40px 5px;
    }
 
 

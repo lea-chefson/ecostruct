@@ -19,7 +19,7 @@
 }
 
 .c_content h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: var(--green);
 }
@@ -29,12 +29,13 @@
     color: var(--blue);
     margin: 20px 0px;
     width:80%;
+    font-size:0.9rem;
     font-weight:600;
 }
 
 .c_content button {
     padding:8px 16px;
-    font-size:1rem;
+    font-size:0.8rem;
     margin-top:20px;
     background: linear-gradient(180deg,var(--green), var(--secondary)  );
     border:none;
@@ -57,12 +58,9 @@
     scroll-margin-top: 150px;
 max-width:1000px;}
 
-.c_content a:hover{
-    color:rgb(137, 68, 83);
-}
 
 .contact{
-    background: linear-gradient(45deg,var(--secondary),var(--primary) ,var(--primary));
+    background: linear-gradient(45deg,var(--primary) ,var(--primary));
     padding-bottom:40px;
 }
 
@@ -125,7 +123,7 @@ textarea:focus {
 .cf_right {
     width: 35%;
     padding: 40px 20px;
-    background: linear-gradient(45deg,var(--blue), var(--secondary)  );
+    background: linear-gradient(45deg,var(--secondary), var(--green), var(--secondary)  );
     border-radius:0px 10px 10px 0px;
 }
 
@@ -142,7 +140,7 @@ textarea:focus {
     width: 25px;
     margin-top: 5px;
     object-fit: contain;
-    filter:invert(1) saturate(0) brightness(200%)
+    filter:invert(1) hue-rotate(150deg) saturate(250%)
 }
 
 .cf_right>div img{
@@ -152,7 +150,7 @@ textarea:focus {
 .icons_right a{
     margin:6px;
     margin-top:15px;
-    filter: saturate(0) brightness(200%)
+    filter: hue-rotate(150deg) saturate(250%) brightness(150%);
 }
 
 .icons_right a:hover{
@@ -160,10 +158,10 @@ textarea:focus {
 }
 
 .cf_right>div div {
-    color: white;
+    color: black;
     display: flex;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 0.8rem;
+    font-weight: 600;
     flex-direction: column;
 }
 
@@ -232,14 +230,11 @@ textarea:focus {
 
 .social-icons2 {
     flex-direction: row;
-    padding:20px 0px;
+    margin:30px 0px;
     display: flex;
-    align-items: center;
+    align-items: center
   }
-  .iconz {
-    width: 40px;
-    height:40px;
-  }
+
 
   ::marker{
     opacity:0;
@@ -248,12 +243,14 @@ textarea:focus {
 
   .iconz a {
     border-radius: 10%;
+    height:30px;
     background-color: var(--primary);
-    background-size: 60%;
+    background-size: 80%;
     background-repeat: no-repeat;
     background-position: center center;
     transition: all 0.2s ease-out;
   }
+  
   .iconz a:hover {
     background-color: var(--blue);
     background-size: 0%;
@@ -277,7 +274,7 @@ textarea:focus {
   }
   
   .icon--linkedin a {
-    padding: 5px;
+    padding: 10px 5px;
     background-image: url('https://benhodgson.net/img/social/linkedin.svg');
   }
  

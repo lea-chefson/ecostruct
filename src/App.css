@@ -43,8 +43,8 @@ body {
     position: fixed;
     bottom: 25px;
     right: 15px;
-    background-color: var(--white);
-    color: var(--primary);
+    background-color: white;
+    color: var(--blue);
     border-radius: 7px;
     font-size: 55px;
     width: 40px;
@@ -60,7 +60,7 @@ body {
     align-items: center;
     cursor: pointer;
     z-index: 99;
-    border: 2px solid var(--primary);
+    border: 2px solid var(--blue);
     -webkit-box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
     box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
     -webkit-transition: -webkit-transform 0.3s linear;
@@ -216,7 +216,7 @@ body {
 ::-webkit-scrollbar {
     width: 12px;
     height: 7px;
-    background-color: var(--primary);
+    background-color: white;
 }
 
 ::-webkit-scrollbar-thumb {

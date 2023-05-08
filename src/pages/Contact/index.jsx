@@ -28,11 +28,11 @@ const Contact = () => {
                 </Fade>
                 <ul class="social-icons2">
               
-  <li class="iconz icon--linkedin">
+  <div class="iconz icon--linkedin">
     <a href="#">
       <span class="icon__name">LinkedIn</span>
     </a>
-  </li>
+  </div>
  
 </ul>
               </div>
