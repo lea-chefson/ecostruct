@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecostruct/static/css/main.f32ccdec.css",
-    "main.js": "/ecostruct/static/js/main.bdaddc9c.js",
+    "main.css": "/ecostruct/static/css/main.151727f7.css",
+    "main.js": "/ecostruct/static/js/main.c0033e8a.js",
     "static/media/mainVideo.mp4": "/ecostruct/static/media/mainVideo.a13884c69cc80d989d26.mp4",
     "static/media/com.jpg": "/ecostruct/static/media/com.ccf3fe1b37591b8ab2f6.jpg",
     "static/media/section5.png": "/ecostruct/static/media/section5.c182fba3a6c33fe46c07.png",
@@ -19,6 +19,7 @@
     "static/media/Archivo-Regular.ttf": "/ecostruct/static/media/Archivo-Regular.966d9d4d45a09d520c4f.ttf",
     "static/media/money_bags.png": "/ecostruct/static/media/money_bags.4e7601967c8238bf4c58.png",
     "static/media/partner14.png": "/ecostruct/static/media/partner14.3fdeda05f994c76e0f9a.png",
+    "static/media/yash.jpg": "/ecostruct/static/media/yash.add065cbf670e262940f.jpg",
     "static/media/logoNav.png": "/ecostruct/static/media/logoNav.820985fad48d5d57f5bf.png",
     "static/media/partner6.png": "/ecostruct/static/media/partner6.4000b21aa7091c388ad6.png",
     "static/media/partner11.png": "/ecostruct/static/media/partner11.3e0923b45c5fcafad015.png",
@@ -34,6 +35,7 @@
     "static/media/b_w_logo_t.png": "/ecostruct/static/media/b_w_logo_t.5efc2a75f98d625a3634.png",
     "static/media/logo2.jpg": "/ecostruct/static/media/logo2.5efc2a75f98d625a3634.jpg",
     "static/media/partner13.png": "/ecostruct/static/media/partner13.a04901f22fca9108a970.png",
+    "static/media/alex.jpg": "/ecostruct/static/media/alex.9280e6074204efdbfeac.jpg",
     "static/media/partner12.png": "/ecostruct/static/media/partner12.eb385b3b5b46760c7ebe.png",
     "static/media/partner8.png": "/ecostruct/static/media/partner8.f76b263022dcddb2dbb1.png",
     "static/media/team3.jpg": "/ecostruct/static/media/team3.767539860ccbd8a0bb78.jpg",
@@ -50,11 +52,11 @@
     "static/media/slick.woff": "/ecostruct/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ecostruct/index.html",
     "static/media/iconA.svg": "/ecostruct/static/media/iconA.39316a27ec5b6fc501aaaff0d83b6c99.svg",
-    "main.f32ccdec.css.map": "/ecostruct/static/css/main.f32ccdec.css.map",
-    "main.bdaddc9c.js.map": "/ecostruct/static/js/main.bdaddc9c.js.map"
+    "main.151727f7.css.map": "/ecostruct/static/css/main.151727f7.css.map",
+    "main.c0033e8a.js.map": "/ecostruct/static/js/main.c0033e8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f32ccdec.css",
-    "static/js/main.bdaddc9c.js"
+    "static/css/main.151727f7.css",
+    "static/js/main.c0033e8a.js"
   ]
 }
