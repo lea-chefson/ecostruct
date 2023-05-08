@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "/ecostruct/static/css/main.151727f7.css",
-    "main.js": "/ecostruct/static/js/main.c0033e8a.js",
+    "main.js": "/ecostruct/static/js/main.2aa98061.js",
     "static/media/mainVideo.mp4": "/ecostruct/static/media/mainVideo.a13884c69cc80d989d26.mp4",
     "static/media/com.jpg": "/ecostruct/static/media/com.ccf3fe1b37591b8ab2f6.jpg",
     "static/media/section5.png": "/ecostruct/static/media/section5.c182fba3a6c33fe46c07.png",
-    "static/media/perso5.png": "/ecostruct/static/media/perso5.f30c348c5fa0dfed329f.png",
     "static/media/perso3.png": "/ecostruct/static/media/perso3.af4f369e0747e950895c.png",
     "static/media/perso4.png": "/ecostruct/static/media/perso4.57fcecfc879bc1833e82.png",
     "static/media/perso2.png": "/ecostruct/static/media/perso2.7a42295d1be19113b187.png",
@@ -36,6 +35,7 @@
     "static/media/logo2.jpg": "/ecostruct/static/media/logo2.5efc2a75f98d625a3634.jpg",
     "static/media/partner13.png": "/ecostruct/static/media/partner13.a04901f22fca9108a970.png",
     "static/media/alex.jpg": "/ecostruct/static/media/alex.9280e6074204efdbfeac.jpg",
+    "static/media/perso5.png": "/ecostruct/static/media/perso5.230b8b9e9fd3818d24b7.png",
     "static/media/partner12.png": "/ecostruct/static/media/partner12.eb385b3b5b46760c7ebe.png",
     "static/media/partner8.png": "/ecostruct/static/media/partner8.f76b263022dcddb2dbb1.png",
     "static/media/team3.jpg": "/ecostruct/static/media/team3.767539860ccbd8a0bb78.jpg",
@@ -53,10 +53,10 @@
     "index.html": "/ecostruct/index.html",
     "static/media/iconA.svg": "/ecostruct/static/media/iconA.39316a27ec5b6fc501aaaff0d83b6c99.svg",
     "main.151727f7.css.map": "/ecostruct/static/css/main.151727f7.css.map",
-    "main.c0033e8a.js.map": "/ecostruct/static/js/main.c0033e8a.js.map"
+    "main.2aa98061.js.map": "/ecostruct/static/js/main.2aa98061.js.map"
   },
   "entrypoints": [
     "static/css/main.151727f7.css",
-    "static/js/main.c0033e8a.js"
+    "static/js/main.2aa98061.js"
   ]
 }
