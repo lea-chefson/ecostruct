@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecostruct/static/css/main.1e8ebe03.css",
-    "main.js": "/ecostruct/static/js/main.672b1ab7.js",
+    "main.css": "/ecostruct/static/css/main.f32ccdec.css",
+    "main.js": "/ecostruct/static/js/main.bdaddc9c.js",
     "static/media/mainVideo.mp4": "/ecostruct/static/media/mainVideo.a13884c69cc80d989d26.mp4",
     "static/media/com.jpg": "/ecostruct/static/media/com.ccf3fe1b37591b8ab2f6.jpg",
     "static/media/section5.png": "/ecostruct/static/media/section5.c182fba3a6c33fe46c07.png",
@@ -50,11 +50,11 @@
     "static/media/slick.woff": "/ecostruct/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ecostruct/index.html",
     "static/media/iconA.svg": "/ecostruct/static/media/iconA.39316a27ec5b6fc501aaaff0d83b6c99.svg",
-    "main.1e8ebe03.css.map": "/ecostruct/static/css/main.1e8ebe03.css.map",
-    "main.672b1ab7.js.map": "/ecostruct/static/js/main.672b1ab7.js.map"
+    "main.f32ccdec.css.map": "/ecostruct/static/css/main.f32ccdec.css.map",
+    "main.bdaddc9c.js.map": "/ecostruct/static/js/main.bdaddc9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e8ebe03.css",
-    "static/js/main.672b1ab7.js"
+    "static/css/main.f32ccdec.css",
+    "static/js/main.bdaddc9c.js"
   ]
 }
