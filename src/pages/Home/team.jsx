@@ -5,6 +5,8 @@ import kasima from "../../assets/images/team/kasima.jpg";
 import michael from "../../assets/images/team/michael.jpg";
 import sital from "../../assets/images/team/sital.jpg";
 import vishal from "../../assets/images/team/vishal.jpg";
+import alex from "../../assets/images/team/alex.jpg";
+import yash from "../../assets/images/team/yash.jpg";
 import profile2 from "../../assets/images/team/perso2.png";
 import profile3 from "../../assets/images/team/perso4.png";
 import profile4 from "../../assets/images/team/perso5.png";
@@ -23,26 +25,15 @@ const employees = [
     description:
       "Born in the bustling city of New Delhi and raised in the culturally rich country of Thailand, Yash Lohia is the eldest son of Aloke Lohia, the renowned founder of Indorama Ventures PCL (IVL). As a global leader in sustainable chemicals, IVL is headquartered in Thailand and employs more than 26,000 dedicated individuals across more than 35 countries.\n\nYash embarked on his academic journey at the esteemed Warwick Business School in Warwickshire, UK, where he pursued a Bachelor of Engineering Business Management degree. Eager to expand his knowledge and leadership skills, Yash enrolled in the Director Certification Program (DCP), Class 214/2015, at the Thai Institute of Directors Association (IOD) in Thailand.\n\nOver the years, Yash developed a profound personal passion for sustainability, longing to make a significant impact not only within the chemicals industry but also on a global scale. As a result, in 2019, he became IVL's first-ever Chief Recycling Officer, and later, the Chief Sustainability Officer. Since taking on these vital roles, Yash's visionary leadership has been instrumental in defining IVL's path to Sustainability, including the ambitious goal of recycling 50 billion polyethylene terephthalate (PET) bottles per year by 2025. This transformative ambition is further complemented by a staggering US $1.5 billion investment to build the recycling infrastructure necessary for diverting waste from the world's marine ecosystems.\n\nIn addition to his invaluable contributions to IVL, Yash Lohia is a successful entrepreneur and established businessman with numerous directorship roles. He frequently shares his insights on sustainability through public speaking engagements, including delivering keynote speeches at prestigious events. As a prominent member of several esteemed organisations, such as the Young Presidents' Organization (YPO), Yash continues to inspire and shape the future of sustainability in the global chemicals industry and beyond.",
     contact: "jane.doe@example.com",
-    image: profile2,
+    image: yash,
   },
   {
     name: "Mark Briscombe",
     description:
       "As a native Lancashire lad, Mark pursued higher education at the esteemed University of Manchester, where he excelled in physics and secured a hard-earned master's degree.\n\nAfter conquering the world of academics, Mark stepped into the realm of corporate finance, where he delved into the intricacies of the global economy. Yet, his unquenchable thirst for knowledge soon led him back to the realms of education. This time, he ventured into the field of chemical engineering, expanding his skills and aligning them with his ever-evolving interests.\n\nMark's innovative spirit shone through as he transitioned into consulting on environmental financial solutions. His expertise in diverse fields allowed him to recognize the most prudent ways to balance fiscal responsibility and ecological sustainability. Surrounded by new ideas, Mark felt the drive for intellectual growth once more and embarked on yet another academic journey, pursuing a Ph.D. in mathematics.\n\nIt was in the year 2011, a time marked by the rapid emergence of new technologies, that Mark had his first encounter with blockchain. Recognizing the transformative potential of this technology, he immersed himself in it, securing various senior positions at prominent institutions like Telenor and Aquifer Institute. As a natural innovator, Mark became a critical part of the founding team of Nahmii AS, where he leveraged his background in various fields to conceptualise groundbreaking blockchain-based products that would later be recognized by the European Patent Office.\n\nToday, Mark is a proud member of the founding team at Ecostruct. His extensive expertise in progressive technologies, finance, and environmental engineering plays an indispensable role in shaping the company's direction. With a keen eye for visionary ideas, Mark continues to push boundaries in technology and sustainability, validating novel concepts that have the potential to make a lasting impact on the world.",
     contact: "mike.johnson@example.com",
-    image: profile3,
-  },
-
-  {
-    name: "Yashovardhan Lohia",
-    description:
-    "Born in the bustling city of New Delhi and raised in the culturally rich country of Thailand, Yash Lohia is the eldest son of Aloke Lohia, the renowned founder of Indorama Ventures PCL (IVL). As a global leader in sustainable chemicals, IVL is headquartered in Thailand and employs more than 26,000 dedicated individuals across more than 35 countries.\n\nYash embarked on his academic journey at the esteemed Warwick Business School in Warwickshire, UK, where he pursued a Bachelor of Engineering Business Management degree. Eager to expand his knowledge and leadership skills, Yash enrolled in the Director Certification Program (DCP), Class 214/2015, at the Thai Institute of Directors Association (IOD) in Thailand.\n\nOver the years, Yash developed a profound personal passion for sustainability, longing to make a significant impact not only within the chemicals industry but also on a global scale. As a result, in 2019, he became IVL's first-ever Chief Recycling Officer, and later, the Chief Sustainability Officer. Since taking on these vital roles, Yash's visionary leadership has been instrumental in defining IVL's path to Sustainability, including the ambitious goal of recycling 50 billion polyethylene terephthalate (PET) bottles per year by 2025. This transformative ambition is further complemented by a staggering US $1.5 billion investment to build the recycling infrastructure necessary for diverting waste from the world's marine ecosystems.\n\nIn addition to his invaluable contributions to IVL, Yash Lohia is a successful entrepreneur and established businessman with numerous directorship roles. He frequently shares his insights on sustainability through public speaking engagements, including delivering keynote speeches at prestigious events. As a prominent member of several esteemed organisations, such as the Young Presidents' Organization (YPO), Yash continues to inspire and shape the future of sustainability in the global chemicals industry and beyond.",
-    contact: "emily.williams@example.com",
     image: profile4,
   },
-]
-
-const employees2 = [
   {
     name: "Michael Soon",
     description:
@@ -50,6 +41,11 @@ const employees2 = [
     contact: "david.lee@example.com",
     image: michael,
   },
+
+]
+
+const employees2 = [
+ 
   {
     name: "Sital Gill",
     description:
@@ -76,7 +72,7 @@ const employees2 = [
     description:
       "Alex, a highly accomplished and distinguished professional hailing from the United Kingdom, boasts an impressive academic background and over three decades of experience in the field of corporate strategy and mergers and acquisitions.\n\nAlex's educational journey encompasses a degree from the esteemed London School of Economics, followed by a Master of Studies (MSt) from the prestigious University of Oxford.\n\nThroughout Alex's 30-year career, Asia has been the primary focus, providing a depth of experience in the region's economic landscape. Demonstrating strong leadership and market acuity, Alex reached the pinnacle of success by serving as Chairman for Indochina Energy - a key organization within the Asian energy sector. Concurrently, Alex's acumen as an entrepreneur is exemplified in the co-founding of AWR Lloyd, an award-winning consultancy firm focused on sustainable strategy, where Alex holds the position of CEO.\n\nAt AWR Lloyd, Alex employs a unique blend of financial expertise and environmental consciousness to support a broad range of clients, including governments, international corporations, and innovative start-ups. With an emphasis on sustainable growth and renewable energy, Alex's influence in the energy sector significantly contributes to the development and implementation of environmentally-friendly initiatives.\n\nIn essence, Alex is an entrepreneur, financial expert, and global leader in sustainable strategy, underscored by a consistent effort to create a greener and more sustainable future. This dedication to the environment, paired with an expansive career in corporate strategy and mergers and acquisitions, allows Alex to establish a lasting impact on the world stage, building a legacy defined by excellence, innovation, and responsibility.",
     contact: "david.lee@example.com",
-    image: profile5,
+    image: alex,
   },
 ];
 
