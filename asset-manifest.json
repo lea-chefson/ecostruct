@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ecostruct/static/css/main.151727f7.css",
-    "main.js": "/ecostruct/static/js/main.2aa98061.js",
+    "main.js": "/ecostruct/static/js/main.58dc52a6.js",
     "static/media/mainVideo.mp4": "/ecostruct/static/media/mainVideo.a13884c69cc80d989d26.mp4",
     "static/media/com.jpg": "/ecostruct/static/media/com.ccf3fe1b37591b8ab2f6.jpg",
     "static/media/section5.png": "/ecostruct/static/media/section5.c182fba3a6c33fe46c07.png",
@@ -53,10 +53,10 @@
     "index.html": "/ecostruct/index.html",
     "static/media/iconA.svg": "/ecostruct/static/media/iconA.39316a27ec5b6fc501aaaff0d83b6c99.svg",
     "main.151727f7.css.map": "/ecostruct/static/css/main.151727f7.css.map",
-    "main.2aa98061.js.map": "/ecostruct/static/js/main.2aa98061.js.map"
+    "main.58dc52a6.js.map": "/ecostruct/static/js/main.58dc52a6.js.map"
   },
   "entrypoints": [
     "static/css/main.151727f7.css",
-    "static/js/main.2aa98061.js"
+    "static/js/main.58dc52a6.js"
   ]
 }
