@@ -2,7 +2,7 @@
 
 .header {
     width: 100%;
-    background: linear-gradient(45deg,white 30%,var(--blue) 50% ,var(--secondary));
+    background: linear-gradient(45deg,white 10% ,var(--blue) 50%, var(--secondary) 90%);
     position: fixed;
     z-index: 999;
     top: 0;

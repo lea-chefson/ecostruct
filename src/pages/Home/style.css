@@ -1,5 +1,6 @@
 
 .hero {
+  margin-top:64px;
     width: 100%;
     height: 80vh;
     top: 0;
@@ -22,6 +23,7 @@
 
 
 .overlay {
+  margin-top:64px;
     width: 100%;
     height: 80vh;
     top: 0;
@@ -41,7 +43,7 @@
     max-height:400px;
     height:45vh;
     width:550px;
-    padding:20px;
+    padding-bottom:20px;
     margin-bottom:10px;
     position:relative; 
 }
@@ -101,7 +103,7 @@ h1{
   color:var(--green);
   margin: 0px 100px 30px 120px;
   font-size:2.5rem;
-  padding:120px 5px 10px 5px;
+  padding:80px 5px 10px 5px;
   border-bottom: 4px solid var(--secondary);
   width:30%;
 }
@@ -109,6 +111,49 @@ h1{
 h1 span{
   color:var(--blue)
 }
+
+
+
+
+
+
+.introduction{
+  padding:20px 30px 100px 30px;
+  display:flex;
+  align-items:start;
+  justify-content:space-between;
+  gap:30px;
+  margin:auto;
+  width:90%;
+  max-width: 1400px;
+}
+
+
+
+.group-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:20px 0px;
+  width:15%;
+}
+
+.icon{
+  width:60px;
+  height:60px;
+  fill:var(--green)
+}
+
+.introduction p{
+  text-align: center;
+  font-size:14px;
+  color:white;
+  margin-top:15px;
+}
+
+
+
+
 
 
 
@@ -138,6 +183,10 @@ h1 span{
 .OurStory{
   padding:0px 0px 50px 0px;
   height: max-content;
+  background-image: url("../../assets/images/ourStory.png");
+  background-size: cover;
+  background-position: 0% 50%;
+ 
 }
 
 .story-content{
@@ -147,8 +196,14 @@ h1 span{
   align-items: center;
   gap:40px;
   width:70%;
-  margin:auto;
-  padding: 60px 0px 100px 0px;
+  margin: 100px auto 100px auto;
+  padding:30px 10px;
+  background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.6);
+backdrop-filter: blur(5px) brightness(0.8);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .OurStory p{
@@ -170,45 +225,6 @@ h1 span{
   object-fit: cover;
   border:var(--green) 2px solid
 }
-
-
-.introduction{
-    padding:50px 90px 100px 30px;
-    display:flex;
-    flex-wrap: wrap;
-    align-items:start;
-    justify-content: center;
-    gap:30px;
-    margin:auto;
-    width:70%;
-}
-
-
-
-.group-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:20px 10px;
-    width:28%;
-    max-width:1650px;
-}
-
-.icon{
-    width:60px;
-    height:60px;
-    fill:var(--green)
-}
-
-.introduction p{
-    text-align: left;
-    font-size:15px;
-    color:white;
-    margin-top:15px;
-}
-
-
-
 
 /**
  * ----------------------------------------
@@ -296,9 +312,9 @@ h1 span{
    }
 
    h1{
-    margin:20px 30px 20px 30px;
+    margin:0px 30px 20px 30px;
     width:80%;
-    padding:40px 5px;
+    padding:60px 5px 20px 5px;
    }
 
 
@@ -313,9 +329,8 @@ h1 span{
 
    .story-content{
     flex-direction: column;
-    width:95%;
+    width:90%;
     padding:0;
-    gap:40px;
    }
 
    .OurStory p{
@@ -324,16 +339,12 @@ h1 span{
     padding:30px 0;
    }
 
-   .OurStory img{
-    width:90%;
-    margin:auto;
-   }
 
    .introduction{
     flex-direction: column;
     align-items:center;
     width:90%;
-    padding:10px;
+    padding:10px 0px 60px 0px;
    }
 
    .group-text{

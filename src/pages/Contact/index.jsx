@@ -105,7 +105,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="icons_right">
-                <a href=""><img  src={linkedin}></img></a>
+                <a href="https://www.linkedin.com/company/ecostructholdings-co-ltd/about/"><img  src={linkedin}></img></a>
 
               </div>
             </div>

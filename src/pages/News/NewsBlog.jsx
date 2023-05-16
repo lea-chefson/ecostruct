@@ -36,7 +36,7 @@ const NewsBlog = () => {
               <div className="news_detail_img d_flex justify_content_center align_items_center">
     
          <img
-         src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt={news1}
+         src="https://img.freepik.com/free-photo/person-pressing-power-button_23-2150040438.jpg" alt={news1}
        />
               </div>
             </Zoom>

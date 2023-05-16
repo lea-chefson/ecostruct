@@ -12,7 +12,7 @@ export default function Introduction() {
     <div className='introduction'>
         <div className="group-text">
             <Icon1 className="icon"/>
-            <p >Our mission lies in bridging the gap between creativity and practicality, fostering a future marked by a thriving environment and sustainable human development. We wholeheartedly support and facilitate conversations, research, and collaborations between stakeholders across various sectors, including governments, private enterprises, non-governmental organisations, and individual citizens.</p>
+            <p >We bridge creativity and practicality for a sustainable future, fostering collaborations among governments, enterprises, NGOs, and citizens. Our mission is to shape an inclusive world, marked by a thriving environment and sustainable human development. Through conversations, research, and partnerships, we work towards a collective vision of a better tomorrow.</p>
             </div>
             <div className="group-text">
                 <Icon2 className='icon'/>

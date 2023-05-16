@@ -9,7 +9,7 @@ const NewsCard1 = () => {
     <div className="news_wrap">
     <Link to={`/news-blog/news`} className="news_card">
          <img
-         src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt="news1"
+         src="https://img.freepik.com/free-photo/person-pressing-power-button_23-2150040438.jpg" alt="news1"
        />
       <div className="news_card_content">
         <h2>Ecostruct Holdings Announces Incorporation and Secures USD 400k in Startup Capital
