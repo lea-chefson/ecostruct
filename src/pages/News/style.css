@@ -15,7 +15,7 @@
 
 .news_col {
     width: 25%;
-    padding: 10px 12px;
+    padding: 10px 25px;
     display:flex;
     flex-direction: col;
 }
@@ -27,7 +27,6 @@
     border-radius: 5px;
     transition: 0.5s all;
     text-decoration: none;
-    margin:10px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: var(--primary);
 }
@@ -160,8 +159,8 @@
         padding: 30px 0 26px 0;
     }
     .news_col {
-        width: 50%;
-        padding: 9px 3px;
+        width: 90%;
+        padding: 0px;
     }
     .news_card_content {
         padding: 16px 12px;
@@ -198,6 +197,8 @@
         padding-left: 0;
         padding-top: 13px;
     }
+
+    
     .news_detail_related_sec .news_card_row {
         flex-direction: row;
         flex-wrap: wrap;
@@ -211,6 +212,7 @@
     .news_detail_img {
         min-height: 280px;
     }
+
 }
 
 @media screen and (max-width: 335px) {

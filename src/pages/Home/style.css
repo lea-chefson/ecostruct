@@ -288,6 +288,9 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 @media screen and (max-width: 800px) {
 
+  .hero {
+    margin-top:54px;
+  }
     .hero-spacer {
         background-image: none;
     }
@@ -297,6 +300,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
         align-items: center;
         padding-top:0vh;
         padding-left:0vh;
+        margin-top:54px;
     }
    
     .overlay img{
